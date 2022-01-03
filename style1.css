@@ -1,0 +1,96 @@
+*{
+font-size: 24px;
+font-family: 'Diplomata SC', cursive;
+font-weight: bolder;
+}
+body{
+    margin:0%
+}
+.Navbar{
+    font-size: 75%;
+    width:100%;
+    height: 30%;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #65366894;
+}
+.Navbar a{
+    color: #ffffff;
+  font-family: monospace;
+  padding: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.left{
+    background-color: #cb8eb885;
+    width: 50%;
+    height: 90vh;
+}
+.right{
+    background-color: #eec7e2bb;
+    width: 50%;
+    height: 90vh;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+.skills-img{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+p#aboutme{
+    width: 70%;
+    height: 20%;
+    border: 10px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 10%;
+}
+#propic{
+    width: 20%;
+    height: 30%;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 2%;
+    position: absolute;
+    left: 40%;
+}
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.contactme{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #d379da26;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+}
